@@ -1,0 +1,44 @@
+{% set name = "itsdangerous" %}
+{% set version = "2.0.1" %}
+{% set hash = "9e724d68fc22902a1435351f84c3fb8623f303fffcc566a4cb952df8c572cff0" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ hash }}
+
+build:
+  noarch: python
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vvv
+
+requirements:
+  host:
+    - pip
+    - python >=3.6
+
+  run:
+    - python >=3.6
+
+test:
+  imports:
+    - itsdangerous
+
+about:
+  home: https://github.com/pallets/itsdangerous
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.rst
+  summary: Various helpers to pass trusted data to untrusted environments.
+  doc_url: http://pythonhosted.org/itsdangerous
+  dev_url: https://github.com/pallets/itsdangerous
+
+extra:
+  recipe-maintainers:
+    - goanpeca
+    - nicoddemus
+    - williamjamir

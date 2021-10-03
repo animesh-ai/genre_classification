@@ -1,0 +1,28 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "mako",
+    "python >=3.6",
+    "python-dateutil",
+    "python-editor >=0.3",
+    "sqlalchemy >=1.3.0"
+  ],
+  "features": "",
+  "fn": "alembic-1.6.5-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b0d409235bcbf602253ec0225ddcf34c",
+  "name": "alembic",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "1c1020e2460a678d05d1b154ab3c683a45aeefedbdc19e28da584cb7643a919b",
+  "size": 116955,
+  "subdir": "noarch",
+  "timestamp": 1622150469212,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/alembic-1.6.5-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.6.5"
+}

@@ -1,0 +1,10 @@
+{
+  "python": "3.8.* *_cpython",
+  "c_compiler_version": "9",
+  "cxx_compiler_version": "9",
+  "c_compiler": "gcc",
+  "channel_targets": "conda-forge main",
+  "cxx_compiler": "gxx",
+  "dbus": "1",
+  "target_platform": "linux-64"
+}

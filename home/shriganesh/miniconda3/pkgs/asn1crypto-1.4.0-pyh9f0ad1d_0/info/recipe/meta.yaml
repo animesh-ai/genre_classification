@@ -1,0 +1,60 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Jul 28 15:24:44 2020
+# ------------------------------------------------
+
+package:
+    name: asn1crypto
+    version: 1.4.0
+source:
+    sha256: f4f6e119474e58e04a2b1af817eb585b4fd72bdd89b998624712b5c99be7641c
+    url: https://pypi.io/packages/source/a/asn1crypto/asn1crypto-1.4.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/asn1crypto_1595949944546/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+        -m pip install . -vv
+    string: pyh9f0ad1d_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 0_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py36h9f0ad1d_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.2.0 h24d8f2e_2
+        - libgomp 9.2.0 h24d8f2e_2
+        - libstdcxx-ng 9.2.0 hdf63c60_2
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_0
+        - pip 20.1.1 py_1
+        - python 3.6.11 h425cb1d_0_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.2.0 py36h9f0ad1d_0
+        - sqlite 3.32.3 hcee41ef_1
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1006
+    run:
+        - python
+test:
+    commands:
+        - pip check
+    imports:
+        - asn1crypto
+    requires:
+        - pip
+about:
+    home: https://github.com/wbond/asn1crypto
+    license: MIT
+    license_file: LICENSE
+    summary: Python ASN.1 library with a focus on performance and a pythonic API
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller
+        - ocefpaf

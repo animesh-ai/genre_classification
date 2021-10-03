@@ -1,0 +1,11 @@
+{
+  "gcc_machine": "x86_64",
+  "glibc_version": "2.12",
+  "glib": "2",
+  "use_system_gcc": "False",
+  "gcc_version": "11.1.0",
+  "cross_target_platform": "linux-64",
+  "channel_targets": "conda-forge main",
+  "target_platform": "linux-64",
+  "binutils_version": "2.36.1"
+}

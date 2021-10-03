@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h6c583b3_8",
+  "build_number": 8,
+  "constrains": [
+    "libgfortran-ng 11.1.0"
+  ],
+  "depends": [],
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "name": "libgfortran5",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1628139734340,
+  "version": "11.1.0"
+}

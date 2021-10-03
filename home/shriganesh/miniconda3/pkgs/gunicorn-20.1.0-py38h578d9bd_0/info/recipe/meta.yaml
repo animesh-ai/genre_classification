@@ -1,0 +1,72 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue May 11 11:58:02 2021
+# ------------------------------------------------
+
+package:
+  name: gunicorn
+  version: 20.1.0
+source:
+  sha256: e0a968b5ba15f8a328fdfd7ab1fcb5af4470c28aaf7e55df02a99bc13138e6e8
+  url: https://pypi.io/packages/source/g/gunicorn/gunicorn-20.1.0.tar.gz
+build:
+  entry_points:
+    - gunicorn=gunicorn.app.wsgiapp:run
+  number: '0'
+  preserve_egg_dir: true
+  script: /home/conda/feedstock_root/build_artifacts/gunicorn_1620734326877/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl/bin/python
+    -m pip install . --no-deps -vv
+  string: py38h578d9bd_0
+requirements:
+  build: []
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2020.12.5 ha878542_0
+    - certifi 2020.12.5 py38h578d9bd_1
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libffi 3.3 h58526e2_2
+    - libgcc-ng 9.3.0 h2828fa1_19
+    - libgomp 9.3.0 h2828fa1_19
+    - libstdcxx-ng 9.3.0 h6de172a_19
+    - ncurses 6.2 h58526e2_4
+    - openssl 1.1.1k h7f98852_0
+    - pip 21.1.1 pyhd8ed1ab_0
+    - python 3.8.10 h49503c6_1_cpython
+    - python_abi 3.8 1_cp38
+    - readline 8.1 h46c0cb4_0
+    - setuptools 49.6.0 py38h578d9bd_3
+    - sqlite 3.35.5 h74cdb3f_0
+    - tk 8.6.10 h21135ba_1
+    - wheel 0.36.2 pyhd3deb0d_0
+    - xz 5.2.5 h516909a_1
+    - zlib 1.2.11 h516909a_1010
+  run:
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+    - setuptools >=3.0
+test:
+  commands:
+    - gunicorn --help
+  imports:
+    - gunicorn
+    - gunicorn.app
+    - gunicorn.http
+    - gunicorn.instrument
+    - gunicorn.workers
+  requires:
+    - paste
+    - pastedeploy
+about:
+  home: http://gunicorn.org
+  license: MIT
+  license_file: LICENSE
+  summary: WSGI HTTP Server for UNIX
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - daf
+    - jakirkham
+    - kwilcox
+    - sodre

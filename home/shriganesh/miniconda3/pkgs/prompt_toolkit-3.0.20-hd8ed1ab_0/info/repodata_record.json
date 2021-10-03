@@ -1,0 +1,24 @@
+{
+  "build": "hd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "prompt-toolkit >=3.0.20,<3.0.21.0a0"
+  ],
+  "features": "",
+  "fn": "prompt_toolkit-3.0.20-hd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "0f88fd21c7a5967691784861b6cc1c40",
+  "name": "prompt_toolkit",
+  "noarch": "generic",
+  "package_type": "noarch_generic",
+  "sha256": "5ffbedc2ec2191b782c9b530ee6c55f00895324211ce527951f13443cfe31f52",
+  "size": 4430,
+  "subdir": "noarch",
+  "timestamp": 1629904067474,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/prompt_toolkit-3.0.20-hd8ed1ab_0.tar.bz2",
+  "version": "3.0.20"
+}

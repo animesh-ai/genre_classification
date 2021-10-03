@@ -22,7 +22,9 @@ def go(args):
     artifact_path = artifact.file()
 
     df = pd.read_csv(artifact_path, low_memory=False)
-
+    df['title'].fillna(value='', inplace=True)
+    df['song_name'].fillna(value='', inplace=True)
+    df['text_feature'] = df['title'] + ' ' + df['song_name']
     # Split first in model_dev/test, then we further divide model_dev in train and validation
     logger.info("Splitting data into train, val and test")
     splits = {}

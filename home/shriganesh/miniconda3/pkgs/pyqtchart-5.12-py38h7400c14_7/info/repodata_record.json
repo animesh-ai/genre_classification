@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py38h7400c14_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "dbus >=1.13.6,<2.0a0",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "pyqt-impl 5.12.3 py38h7400c14_7",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "qt >=5.12.9,<5.13.0a0"
+  ],
+  "features": "",
+  "fn": "pyqtchart-5.12-py38h7400c14_7.tar.bz2",
+  "license": "LicenseRef-Commercial or GPL-2.0-only or GPL-3.0-only",
+  "license_family": "GPL",
+  "md5": "3003444b4f41742a33b7afdeb3260cbc",
+  "name": "pyqtchart",
+  "platform": "linux",
+  "sha256": "e352df464839b4cf3f2dfbc7c5680a39a1fec5a6606a0e5171e5c6c9135ff12c",
+  "size": 263364,
+  "subdir": "linux-64",
+  "timestamp": 1610494763292,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyqtchart-5.12-py38h7400c14_7.tar.bz2",
+  "version": "5.12"
+}

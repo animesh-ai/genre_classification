@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py38h578d9bd_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "setuptools >=3.0"
+  ],
+  "license": "MIT",
+  "name": "gunicorn",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1620734458658,
+  "version": "20.1.0"
+}

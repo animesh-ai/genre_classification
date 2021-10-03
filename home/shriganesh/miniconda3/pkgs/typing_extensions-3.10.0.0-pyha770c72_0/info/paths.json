@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "ff17ce94e102024deb68773eb1cc74ca76da4e658f373531f0ac22d68a6bb1ad",
+      "size_in_bytes": 12755
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "ce395c3427944141133dedfb8dfb5e7b82309062b19bc60f290c4514e320caa4",
+      "size_in_bytes": 2099
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "e41a70ab58b8b80f51665da775ea4c347f52cce561f28170dd3bb763a80b8fd2",
+      "size_in_bytes": 896
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "d5f99c9e064758c2c3a6f627df26e139240c3f882c01e0540baf62ca74d79235",
+      "size_in_bytes": 113
+    },
+    {
+      "_path": "site-packages/typing_extensions-3.10.0.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "8640e6937566adf5cf383fbe8d2e1a2930aeea4159a3e9154f570815fab5794f",
+      "size_in_bytes": 18
+    },
+    {
+      "_path": "site-packages/typing_extensions.py",
+      "path_type": "hardlink",
+      "sha256": "ba971173eca09a865281b2785996b7e1913f3d526c62b3a518ced659b06b26ea",
+      "size_in_bytes": 108429
+    }
+  ],
+  "paths_version": 1
+}

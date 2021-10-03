@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "7a911ba6d4e26cb044644be84310cfbc8f5b2aa00a0549c10d2404c9d725252f",
+      "size_in_bytes": 1091
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "2d81a247d9e8935c19d7fdc4dffe5e55d7f299e45ce63bfcadd5dc9f00de6708",
+      "size_in_bytes": 4858
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "9138af824daa56b3128f598842a5367d5181b94e4adfda600becfbbe5a463c8f",
+      "size_in_bytes": 770
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "cb76d1aac8bc94efa5d343575c8b4d989f5d37a7acaee1f77e9826f0263b1cf9",
+      "size_in_bytes": 103
+    },
+    {
+      "_path": "site-packages/gorilla-0.4.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "060e39a1d8825db28515f1dc680ffe6cd02b8b012f09461d05f17f005ab07810",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "site-packages/gorilla.py",
+      "path_type": "hardlink",
+      "sha256": "fa2751c6c03cb02842d4a451b43398b494b63043564249a71692e79205f971d6",
+      "size_in_bytes": 26298
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "itsdangerous-2.0.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "030cb050b845611262dcd3ee1c66316b",
+  "name": "itsdangerous",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "a822564add4f0a27d90f3a790d23cc85c84190cb8f48ca947d2f4ea5ef1ac42c",
+  "size": 17615,
+  "subdir": "noarch",
+  "timestamp": 1621360946844,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/itsdangerous-2.0.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.0.1"
+}

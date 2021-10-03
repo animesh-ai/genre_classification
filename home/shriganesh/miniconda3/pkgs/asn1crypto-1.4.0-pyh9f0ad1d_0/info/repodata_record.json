@@ -1,0 +1,24 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "asn1crypto-1.4.0-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1c9706ddd11a4ce4fb6670fc424b4a46",
+  "name": "asn1crypto",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "8801be8fec95849fa65582ba91670fc8c426729c189a6365c8b641eecfe40620",
+  "size": 79659,
+  "subdir": "noarch",
+  "timestamp": 1595950045788,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/asn1crypto-1.4.0-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.4.0"
+}

@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "hd57d9b9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.19.1,<1.20.0a0",
+    "libgcc-ng >=9.3.0",
+    "openssl >=1.1.1k,<1.1.2a",
+    "readline >=8.1,<9.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "libpq-13.3-hd57d9b9_0.tar.bz2",
+  "md5": "66ef2cacc483205b7d303f7b02601c3b",
+  "name": "libpq",
+  "platform": "linux",
+  "sha256": "d9a02ded3d1c57e1e3773818767cbb46341cc6aae19d8b22ab4dbbf0907773dd",
+  "size": 2854876,
+  "subdir": "linux-64",
+  "timestamp": 1621012572956,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libpq-13.3-hd57d9b9_0.tar.bz2",
+  "version": "13.3"
+}

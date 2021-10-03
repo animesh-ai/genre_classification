@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h0b5b191_1005",
+  "build_number": 1005,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libffi >=3.3,<3.4.0a0",
+    "libgcc-ng >=9.3.0"
+  ],
+  "features": "",
+  "fn": "gettext-0.19.8.1-h0b5b191_1005.tar.bz2",
+  "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+  "md5": "ff6f69b593a9e74c0e6b61908ac513fa",
+  "name": "gettext",
+  "platform": "linux",
+  "sha256": "8394c7e769ebe3d3dcadf7dc290c9b04ff9028174a2ecd839ea980665ccd1bf8",
+  "size": 3806350,
+  "subdir": "linux-64",
+  "timestamp": 1606347691729,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gettext-0.19.8.1-h0b5b191_1005.tar.bz2",
+  "version": "0.19.8.1"
+}

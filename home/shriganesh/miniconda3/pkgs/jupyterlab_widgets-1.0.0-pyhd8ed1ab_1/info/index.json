@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.6"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "jupyterlab_widgets",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1609173463031,
+  "version": "1.0.0"
+}

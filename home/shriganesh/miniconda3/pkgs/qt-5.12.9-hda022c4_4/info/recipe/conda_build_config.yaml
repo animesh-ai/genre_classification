@@ -1,0 +1,82 @@
+c_compiler: gcc
+c_compiler_version: '9'
+cdt_name: cos6
+channel_sources: conda-forge,defaults
+channel_targets: conda-forge main
+cpu_optimization_target: nocona
+cran_mirror: https://cran.r-project.org
+cxx_compiler: gxx
+cxx_compiler_version: '9'
+dbus: '1'
+docker_image: quay.io/condaforge/linux-anvil-comp7
+expat: '2.2'
+extend_keys:
+- extend_keys
+- ignore_version
+- ignore_build_only_deps
+- pin_run_as_build
+fontconfig: '2.13'
+fortran_compiler: gfortran
+freetype: '2'
+gst_plugins_base: '1.18'
+gstreamer: '1.18'
+icu: '68'
+ignore_build_only_deps:
+- numpy
+- python
+jpeg: '9'
+libevent: 2.1.10
+libpng: '1.6'
+libxml2: '2.9'
+lua: '5'
+nspr: '4'
+nss: '3'
+numpy: '1.16'
+openssl: 1.1.1
+perl: 5.26.2
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+  r-base:
+    min_pin: x.x
+    max_pin: x.x
+  dbus:
+    max_pin: x
+  expat:
+    max_pin: x.x
+  fontconfig:
+    max_pin: x
+  freetype:
+    max_pin: x
+  jpeg:
+    max_pin: x
+  libevent:
+    max_pin: x.x.x
+  libpng:
+    max_pin: x.x
+  libxml2:
+    max_pin: x.x
+  nspr:
+    max_pin: x
+  nss:
+    max_pin: x
+  openssl:
+    max_pin: x.x.x
+  readline:
+    max_pin: x
+  sqlite:
+    max_pin: x
+  zlib:
+    max_pin: x.x
+python: '3.8'
+r_base: '3.5'
+readline: '8.0'
+sqlite: '3'
+target_platform: linux-64
+zip_keys:
+- - cdt_name
+  - docker_image
+- - c_compiler_version
+  - cxx_compiler_version
+zlib: '1.2'

@@ -1,0 +1,123 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Mar 27 13:23:43 2021
+# ------------------------------------------------
+
+package:
+  name: cryptography
+  version: 3.4.7
+source:
+  sha256: 3d10de8116d25649631977cb37da6cbdd2d6fa0e0281d014a5b7d337255ca713
+  url: https://pypi.io/packages/source/c/cryptography/cryptography-3.4.7.tar.gz
+build:
+  number: '0'
+  script:
+    - /home/conda/feedstock_root/build_artifacts/cryptography_1616851476134/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+      -m pip install . -vv
+  string: py38ha5dfef3_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - binutils_impl_linux-64 2.35.1 h193b22a_2
+    - binutils_linux-64 2.35 h67ddf6f_30
+    - gcc_impl_linux-64 9.3.0 h70c0ae5_18
+    - gcc_linux-64 9.3.0 hf25ea35_30
+    - kernel-headers_linux-64 2.6.32 h77966d4_13
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libgcc-devel_linux-64 9.3.0 h7864c58_18
+    - libgcc-ng 9.3.0 h2828fa1_18
+    - libgomp 9.3.0 h2828fa1_18
+    - libstdcxx-ng 9.3.0 h6de172a_18
+    - rust 1.49.0 h3bf0571_0
+    - rust-std-x86_64-unknown-linux-gnu 1.49.0 hc1431ca_0
+    - rust_linux-64 1.49.0 h84f02c4_0
+    - sysroot_linux-64 2.12 h77966d4_13
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2020.12.5 ha878542_0
+    - certifi 2020.12.5 py38h578d9bd_1
+    - cffi 1.14.5 py38ha65f79e_0
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libffi 3.3 h58526e2_2
+    - libgcc-ng 9.3.0 h2828fa1_18
+    - libgomp 9.3.0 h2828fa1_18
+    - libstdcxx-ng 9.3.0 h6de172a_18
+    - ncurses 6.2 h58526e2_4
+    - openssl 1.1.1k h7f98852_0
+    - pip 21.0.1 pyhd8ed1ab_0
+    - pycparser 2.20 pyh9f0ad1d_2
+    - python 3.8.8 hffdb5ce_0_cpython
+    - python_abi 3.8 1_cp38
+    - readline 8.0 he28a2e2_2
+    - semantic_version 2.8.5 pyh9f0ad1d_0
+    - setuptools 49.6.0 py38h578d9bd_3
+    - setuptools-rust 0.12.1 pyhd8ed1ab_0
+    - sqlite 3.35.3 h74cdb3f_0
+    - tk 8.6.10 h21135ba_1
+    - toml 0.10.2 pyhd8ed1ab_0
+    - wheel 0.36.2 pyhd3deb0d_0
+    - xz 5.2.5 h516909a_1
+    - zlib 1.2.11 h516909a_1010
+  run:
+    - cffi >=1.12
+    - openssl >=1.1.1k,<1.1.2a
+    - openssl >=1.1.1k,<1.1.2a
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+test:
+  commands:
+    - pytest
+  imports:
+    - cryptography
+    - cryptography.fernet
+    - cryptography.hazmat
+    - cryptography.hazmat.backends
+    - cryptography.hazmat.backends.openssl
+    - cryptography.hazmat.bindings
+    - cryptography.hazmat.bindings.openssl
+    - cryptography.hazmat.primitives
+    - cryptography.hazmat.primitives.asymmetric
+    - cryptography.hazmat.primitives.ciphers
+    - cryptography.hazmat.primitives.kdf
+    - cryptography.hazmat.primitives.twofactor
+    - cryptography.x509
+  requires:
+    - cryptography-vectors 3.4.7.*
+    - hypothesis
+    - iso8601
+    - pretend
+    - pytest
+    - pytest-subtests
+    - pytz
+  source_files:
+    - tests
+about:
+  description: 'Cryptography is a package which provides cryptographic recipes and
+
+    primitives to Python developers. Our goal is for it to be your
+
+    "cryptographic standard library". It supports Python 2.6-2.7, Python 3.3+,
+
+    and PyPy 2.6+. Cryptography includes both high level recipes, and low level
+
+    interfaces to common cryptographic algorithms such as symmetric ciphers,
+
+    message digests and key derivation functions.
+
+    '
+  dev_url: https://github.com/pyca/cryptography
+  doc_source_url: https://github.com/pyca/cryptography/blob/master/docs/index.rst
+  doc_url: http://cryptography.readthedocs.io/
+  home: https://github.com/pyca/cryptography
+  license: Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT
+  license_family: BSD
+  license_file: LICENSE
+  summary: Provides cryptographic recipes and primitives to Python developers
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - jakirkham
+    - ocefpaf

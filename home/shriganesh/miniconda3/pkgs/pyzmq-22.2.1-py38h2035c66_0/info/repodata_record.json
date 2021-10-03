@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py38h2035c66_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.4.0",
+    "libsodium >=1.0.18,<1.0.19.0a0",
+    "libstdcxx-ng >=9.4.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "zeromq >=4.3.4,<4.4.0a0"
+  ],
+  "features": "",
+  "fn": "pyzmq-22.2.1-py38h2035c66_0.tar.bz2",
+  "license": "BSD-3-Clause AND LGPL-3.0-or-later",
+  "md5": "0d92c059b6c72879afb6971a7a26663e",
+  "name": "pyzmq",
+  "platform": "linux",
+  "sha256": "d3c73428ac19bc0307c98da87fb0577e8f1dc027ca06aca2d5ab6e00b81abd76",
+  "size": 541115,
+  "subdir": "linux-64",
+  "timestamp": 1628233089203,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyzmq-22.2.1-py38h2035c66_0.tar.bz2",
+  "version": "22.2.1"
+}

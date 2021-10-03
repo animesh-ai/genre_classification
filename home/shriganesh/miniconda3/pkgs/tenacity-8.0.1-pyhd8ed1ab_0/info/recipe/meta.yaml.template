@@ -1,0 +1,51 @@
+{% set name = "tenacity" %}
+{% set version = "8.0.1" %}
+{% set sha256 = "43242a20e3e73291a28bcbcacfd6e000b02d3857a9a9fff56b297a27afdc932f" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script: {{ PYTHON }} -m pip install -vv .
+  noarch: python
+
+requirements:
+  host:
+    - python >=3.6
+    - pip
+    - setuptools
+    - setuptools_scm
+  run:
+    - python >=3.6
+
+test:
+  requires:
+    - pip
+  commands:
+    - pip check
+  imports:
+    - tenacity
+
+about:
+  home: http://github.com/jd/tenacity
+  license: Apache-2.0
+  license_file: LICENSE
+  summary: Retry a flaky function whenever an exception occurs until it works
+
+  description: |
+    Tenacity is general-purpose retrying library, written in Python, to simplify the task of
+    adding retry behavior to just about anything. It originates from a fork of Retrying
+  doc_url: http://tenacity.readthedocs.io
+  dev_url: http://github.com/jd/tenacity
+
+extra:
+  recipe-maintainers:
+    - sodre
+    - xylar

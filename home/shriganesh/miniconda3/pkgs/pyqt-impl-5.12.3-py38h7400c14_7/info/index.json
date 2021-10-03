@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py38h7400c14_7",
+  "build_number": 7,
+  "depends": [
+    "dbus >=1.13.6,<2.0a0",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "pyqt5-sip 4.19.18 py38h709712a_7",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "qt >=5.12.9,<5.13.0a0"
+  ],
+  "license": "LicenseRef-Commercial or GPL-2.0-only or GPL-3.0-only",
+  "license_family": "GPL",
+  "name": "pyqt-impl",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1610494613104,
+  "version": "5.12.3"
+}

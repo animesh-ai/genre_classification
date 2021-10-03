@@ -1,0 +1,106 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 18 19:28:13 2021
+# ------------------------------------------------
+
+package:
+  name: sqlalchemy
+  version: 1.4.23
+source:
+  sha256: 76ff246881f528089bf19385131b966197bb494653990396d2ce138e2a447583
+  url: https://pypi.io/packages/source/S/SQLAlchemy/SQLAlchemy-1.4.23.tar.gz
+build:
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/sqlalchemy_1629314936610/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python
+    -m pip install . --no-deps -vv
+  string: py38h497a2fe_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - binutils_impl_linux-64 2.36.1 h193b22a_2
+    - binutils_linux-64 2.36 hf3e587d_0
+    - gcc_impl_linux-64 9.4.0 h03d3576_8
+    - gcc_linux-64 9.4.0 h391b98a_0
+    - kernel-headers_linux-64 2.6.32 he073ed8_14
+    - ld_impl_linux-64 2.36.1 hea4e1c9_2
+    - libgcc-devel_linux-64 9.4.0 hd854feb_8
+    - libgcc-ng 11.1.0 hc902ee8_8
+    - libgomp 11.1.0 hc902ee8_8
+    - libsanitizer 9.4.0 h79bfe98_8
+    - libstdcxx-ng 11.1.0 h56837e0_8
+    - sysroot_linux-64 2.12 he073ed8_14
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2021.5.30 ha878542_0
+    - ld_impl_linux-64 2.36.1 hea4e1c9_2
+    - libffi 3.3 h58526e2_2
+    - libgcc-ng 11.1.0 hc902ee8_8
+    - libgomp 11.1.0 hc902ee8_8
+    - libstdcxx-ng 11.1.0 h56837e0_8
+    - ncurses 6.2 h58526e2_4
+    - openssl 1.1.1k h7f98852_1
+    - pip 21.2.4 pyhd8ed1ab_0
+    - python 3.8.10 h49503c6_1_cpython
+    - python_abi 3.8 2_cp38
+    - readline 8.1 h46c0cb4_0
+    - setuptools 57.4.0 py38h578d9bd_0
+    - sqlite 3.36.0 h9cd32fc_0
+    - tk 8.6.10 h21135ba_1
+    - wheel 0.37.0 pyhd8ed1ab_1
+    - xz 5.2.5 h516909a_1
+    - zlib 1.2.11 h516909a_1010
+  run:
+    - greenlet !=0.4.17
+    - libgcc-ng >=9.4.0
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+test:
+  commands:
+    - pip check
+  imports:
+    - sqlalchemy
+    - sqlalchemy.connectors
+    - sqlalchemy.databases
+    - sqlalchemy.dialects
+    - sqlalchemy.dialects.firebird
+    - sqlalchemy.dialects.mssql
+    - sqlalchemy.dialects.mysql
+    - sqlalchemy.dialects.oracle
+    - sqlalchemy.dialects.postgresql
+    - sqlalchemy.dialects.sqlite
+    - sqlalchemy.dialects.sybase
+    - sqlalchemy.engine
+    - sqlalchemy.event
+    - sqlalchemy.ext
+    - sqlalchemy.ext.declarative
+    - sqlalchemy.orm
+    - sqlalchemy.sql
+    - sqlalchemy.testing
+    - sqlalchemy.testing.plugin
+    - sqlalchemy.util
+  requires:
+    - pip
+about:
+  description: 'SQLAlchemy is the Python SQL toolkit and Object Relational Mapper
+    that
+
+    gives application developers the full power and flexibility of SQL.
+
+    '
+  dev_url: https://github.com/sqlalchemy/sqlalchemy
+  doc_source_url: https://github.com/zzzeek/sqlalchemy/blob/master/doc/build/index.rst
+  doc_url: https://docs.sqlalchemy.org/
+  home: https://www.sqlalchemy.org/
+  license: MIT
+  license_file: LICENSE
+  summary: Database Abstraction Library.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - igortg
+    - mcs07
+    - nehaljwani
+    - ocefpaf

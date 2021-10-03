@@ -1,0 +1,17 @@
+{
+  "readline": "8",
+  "c_compiler_version": "9",
+  "target_platform": "linux-64",
+  "zlib": "1.2",
+  "cxx_compiler": "gxx",
+  "libffi": "3.3",
+  "openssl": "1.1.1",
+  "channel_targets": "conda-forge main",
+  "ncurses": "6.2",
+  "cxx_compiler_version": "9",
+  "c_compiler": "gcc",
+  "sqlite": "3",
+  "tk": "8.6",
+  "bzip2": "1",
+  "xz": "5.2"
+}

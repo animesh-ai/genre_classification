@@ -1,0 +1,24 @@
+{
+  "build": "pyh44b312d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "smmap-3.0.5-pyh44b312d_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "3a8dc70789709aa315325d5df06fb7e4",
+  "name": "smmap",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "091de70ee6bfe063e0c0f77336975d124fd1e3f49b9c58d97c0c7b3d287c0002",
+  "size": 22783,
+  "subdir": "noarch",
+  "timestamp": 1611376495372,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/smmap-3.0.5-pyh44b312d_0.tar.bz2",
+  "version": "3.0.5"
+}

@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "pyhd3deb0d_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "BSD Like",
+  "name": "idna",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1609836406520,
+  "version": "3.1"
+}

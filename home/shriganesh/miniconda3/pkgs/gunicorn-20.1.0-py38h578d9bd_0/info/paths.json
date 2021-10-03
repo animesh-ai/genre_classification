@@ -1,0 +1,475 @@
+{
+  "paths": [
+    {
+      "_path": "bin/gunicorn",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gunicorn_1620734326877/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "1873eac13671c0e852a35d76443706447b89d8da659363d0d02b499589bd2289",
+      "size_in_bytes": 471
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "789fe11b92e1cabfbcf744b5fcc392c9bd5c6798603a4e89f925b6337984d1df",
+      "size_in_bytes": 1136
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "fb4919b8bbf70b03f2343507e34948dd564de026c5b776026a5554a6b20db5fb",
+      "size_in_bytes": 3771
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "e134259ad87878fa48787da445659832cca1c6ba6bf424f5f25a301e1835cc07",
+      "size_in_bytes": 5341
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "af0aef3c9162e71a8c478afea079440fb7cd7c4271762a9bdaeaabd3b086d6ed",
+      "size_in_bytes": 104
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "88aa8a5538384730720c5c6d19488771200501399849830ed1fed2e513cb2baa",
+      "size_in_bytes": 130
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn-20.1.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "71d31a6b6ca1c5bf1da3e5a2a18f6a4475027f07f9e58ced8f04029dc6889e81",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "70c499e1da847e14757a0858b467c9f45c385f0f5137a53b0731f7b51a53e1f4",
+      "size_in_bytes": 279
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__main__.py",
+      "path_type": "hardlink",
+      "sha256": "92ff8b41e3a6f2b5d1c3f3504e3f138379778eff5e28c026ea3c8acd86341ecf",
+      "size_in_bytes": 171
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "f9f65fdb1d15fe210c36aef9c9474e43a8df7af80ba7abffb81060476fd559e1",
+      "size_in_bytes": 393
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/__main__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "83f2bc14c59e4de8d4fbb3cb52ff6bd3db15a6db2821f5452bfb1fa96c8afd3c",
+      "size_in_bytes": 195
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/arbiter.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "25c0c0772c0cb597d2b08d0bc3f07cb42a3b93ad8d7ad90686a3765b36cf7efb",
+      "size_in_bytes": 16868
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/config.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "8d866c9718c3a8089f1497d8c4eb9340376e4310bd514383725b71c12c2c3f94",
+      "size_in_bytes": 62820
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/debug.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "46bd8916f662c9f147d3161bb26e6d276fead9aae454cde33634070f256c5035",
+      "size_in_bytes": 1974
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/errors.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "2165edae52a80893dadf3e7672f7d09fe08beb61928a55599bc3e2ba9b45c12f",
+      "size_in_bytes": 1014
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/glogging.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "edb1073c137213f71d704b41abe13550cf7f57d1a3777b7b051c81b71780a0dd",
+      "size_in_bytes": 11100
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/pidfile.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "8c800e5ca2ef979d6a37c8fc696ba6ca1e08c7a4e1deb4cc92a5a6debc179c8c",
+      "size_in_bytes": 2360
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/reloader.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "d8c02cb1e2776eef2ab3947a062aeb1fea05cbf0e4f9d91246ce7e9cddb5ed01",
+      "size_in_bytes": 3917
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/sock.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "f3c5eb53c3ba1c7ee4674ac31460492ca50e1a2b84f343c06fc405b7801323e7",
+      "size_in_bytes": 6217
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/systemd.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "261c76cb66eeccb2238cf887a5ddd7428b39c4248d3f17465807bd3d1d8fdbe7",
+      "size_in_bytes": 2414
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/__pycache__/util.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "c0d73445e0dc45efddf2fb001b27bc4543cfeeafcf0fdee27e06d1538aae24e0",
+      "size_in_bytes": 13402
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "1aeaacb6a7648b3795e0745b77c6863019f443c2033b2454d7030c36a35ee466",
+      "size_in_bytes": 127
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e750a65152cc882cc50c3c2e81852d704f731c42a1b1b529c4618beb250acbd",
+      "size_in_bytes": 143
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/__pycache__/base.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "54572d1561be75305c697c83d1d673f1f37eb88dfd01d4d30787d6902854431d",
+      "size_in_bytes": 6376
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/__pycache__/pasterapp.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "8edc9753f1e0c1d2b6815aa03a1081c608c4ab9db0ab7efe06918ef7ba909c47",
+      "size_in_bytes": 2114
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/__pycache__/wsgiapp.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "78d470187d110cb0143d5f5701b6026a08d6875eebd69a2b0e0ae955de977a9c",
+      "size_in_bytes": 2172
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/base.py",
+      "path_type": "hardlink",
+      "sha256": "c080c7ce775fcf24dc2b2494309996fe6b1c80b563fcaf70ed408eb1435c545a",
+      "size_in_bytes": 7150
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/pasterapp.py",
+      "path_type": "hardlink",
+      "sha256": "05bd09c1036a671999fa0bef65419600473d457d817617617e12766b5d9769fa",
+      "size_in_bytes": 2038
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/app/wsgiapp.py",
+      "path_type": "hardlink",
+      "sha256": "2ad6f9cf418f902a43a90d334bccdc7180afa898bc4aee3339e930289ba5c010",
+      "size_in_bytes": 1926
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/arbiter.py",
+      "path_type": "hardlink",
+      "sha256": "d14e82e79d082844cc2f34d77b5b1c09c35f6b25cf2a8d190749c992f456c550",
+      "size_in_bytes": 20521
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/config.py",
+      "path_type": "hardlink",
+      "sha256": "1bb004fcfe77e5abb9ae7871fa49a54f034a887391938622ad533632f3b649aa",
+      "size_in_bytes": 58636
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/debug.py",
+      "path_type": "hardlink",
+      "sha256": "514c3e7ad78b126fce43df03e8add7b438f1e03c9ad87df9cdd8aef33ec5eee7",
+      "size_in_bytes": 2289
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/errors.py",
+      "path_type": "hardlink",
+      "sha256": "2650c18da83dd203224702c71b7c73109cc33a7b5297588cdf6476efbf94ea3d",
+      "size_in_bytes": 919
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/glogging.py",
+      "path_type": "hardlink",
+      "sha256": "93f6edd66ad3733374125d2b5aaf45135a708b971360525e83dc47063fddf991",
+      "size_in_bytes": 14913
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "6f84c5df1e45d1560e3d339e358c11191d4460705a3cc85944ca0d7ae0f9fa7d",
+      "size_in_bytes": 277
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "3fc64ed4242da7775742dba0a7f2b9a50912ec57980a965a22a1451161810999",
+      "size_in_bytes": 309
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/body.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "4ca065183c8b9c68be0e7186619d088fcb75fd9a54e7baf8c578a1a1fc6b7973",
+      "size_in_bytes": 6237
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/errors.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "388e3f90072fca7875893e6a75400a642a0f51142f2d746aa66502167040e109",
+      "size_in_bytes": 5721
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/message.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "348395bd0e4cfeba6786e5fb8295b9a95203cf894aa9aad243a39ecf2cfb5bfd",
+      "size_in_bytes": 8294
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/parser.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "5068c06a7811974cc4f940bdcac8a603ea96a132aebd07777687f3162a12a923",
+      "size_in_bytes": 1355
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/unreader.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "ac554d51145b43df984e28c9bedd14ab4a9e647125662c3574707ba3e69cd3d7",
+      "size_in_bytes": 2378
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/__pycache__/wsgi.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9188a58d8516b42e3690a0446b8ef6e167c6798bebdc3e04ffb3a5904a05119c",
+      "size_in_bytes": 8990
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/body.py",
+      "path_type": "hardlink",
+      "sha256": "5f5bdb19c4d2337fb6508dae6ed6afb934b8c8e7747e94f27de15a419ff1f76a",
+      "size_in_bytes": 7297
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/errors.py",
+      "path_type": "hardlink",
+      "sha256": "b0d8c5da59b89b6ab267d97de7f537dc54713d7a715f38e767262a592fa1c5de",
+      "size_in_bytes": 2850
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/message.py",
+      "path_type": "hardlink",
+      "sha256": "8664a67fc0ce1e444db2d71862486ec347a0d3ae694c32fc05ec9bb4f7ed4d57",
+      "size_in_bytes": 11759
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/parser.py",
+      "path_type": "hardlink",
+      "sha256": "e9e3460d430451162acc25ec7edbf76b8858b83fdf06fb6d671389b916dd28d8",
+      "size_in_bytes": 1364
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/unreader.py",
+      "path_type": "hardlink",
+      "sha256": "a5755d7b77cd09420ed852ce489d2236d104a40d26f061fafd1d9297e701f89f",
+      "size_in_bytes": 1943
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/http/wsgi.py",
+      "path_type": "hardlink",
+      "sha256": "db943a559941169b7e5aa9acc70b7a14bc3bf9c924d5d5395c191e63b8b99a67",
+      "size_in_bytes": 12328
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/instrument/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/instrument/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "4cdf5e7ed310e867ab007fd576b4b0837caffcc444f7eb88d4f64e04c4efe34d",
+      "size_in_bytes": 150
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/instrument/__pycache__/statsd.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "98f01bbb09e8237f868658bb97416d0ef6ff97132896ccae5245e7966660418b",
+      "size_in_bytes": 4386
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/instrument/statsd.py",
+      "path_type": "hardlink",
+      "sha256": "fbf0ca33c4fedc21daab7a72c61752e94a15ef4a03db5b535f22786d54eb5457",
+      "size_in_bytes": 4633
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/pidfile.py",
+      "path_type": "hardlink",
+      "sha256": "5374e9a04e7fd39c10c689c64b8a55f9a2e4abc04c4afaa5d78d97267136a25c",
+      "size_in_bytes": 2367
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/reloader.py",
+      "path_type": "hardlink",
+      "sha256": "8c3c734f7327d8d75c283f4989ec7a1cd87e5d28c094afa2c3b2f8477ea1f8bd",
+      "size_in_bytes": 3777
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/sock.py",
+      "path_type": "hardlink",
+      "sha256": "748a410de1f65fea73301f7855199cf8c6ccadb13f6454c086e6ac3a8ed079b3",
+      "size_in_bytes": 6110
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/systemd.py",
+      "path_type": "hardlink",
+      "sha256": "936a896fac0012ff5593e93ccee4ebf4ec87256e8ad8692a5ab48da11df34ebb",
+      "size_in_bytes": 2511
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/util.py",
+      "path_type": "hardlink",
+      "sha256": "b2ea722214e82921f840e34c32a4f00a11f0147a2f45222747ddb1c544523d08",
+      "size_in_bytes": 18516
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "1affc92572a87e293288f6d101443421721c84ac60b741aefbccbe9d844df6f6",
+      "size_in_bytes": 594
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/__init__.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9bcd87befe25d52f25dfead4efe46172aa62309b18f1dcbc8b2d66e0decf4e47",
+      "size_in_bytes": 510
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/base.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9ecffff99b38e41fd9abcaada64a18a014dff1a7c3b3c36d9703133a25e1b11b",
+      "size_in_bytes": 7491
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/base_async.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "8dd9d1056dc66641dcb1c7dff0d8a027a0fc311ddf4dee2b2707977f0111373e",
+      "size_in_bytes": 3912
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/geventlet.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "4e0a9487ea574ea4d4139c4e25bdef9bd005c65a6935be90a3816591b1860521",
+      "size_in_bytes": 4766
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/ggevent.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "80cdac8ad95c774941f44c450437d4545e012d6202a2f3143a703233a021ad76",
+      "size_in_bytes": 5606
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/gthread.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "b0755b03f024d1a625986063135db8235b69e96e9a0a789d1463b265a09a3545",
+      "size_in_bytes": 8787
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/gtornado.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "7bb3c8a6cd3f3ef803d527371afd6d207c407712afdc3b474978423c71f5fd07",
+      "size_in_bytes": 4433
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/sync.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "9acd2ffa864e844f58abdc0a3ce1d630b27549c15dc5c0d9a87742dcacf78180",
+      "size_in_bytes": 5182
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/__pycache__/workertmp.cpython-38.pyc",
+      "path_type": "hardlink",
+      "sha256": "8ec09de5c4500787498e1ef7c10f6ae43fcd3cdded57e2a80c2db4d89d15be71",
+      "size_in_bytes": 1701
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/base.py",
+      "path_type": "hardlink",
+      "sha256": "8cd17c06790785a14d126bdf2ab1f40c8dbe2e23acf546ca14600f397a051f7d",
+      "size_in_bytes": 9103
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/base_async.py",
+      "path_type": "hardlink",
+      "sha256": "1326fecc7b7a6e16957ec095ca06ae54655bc3a5ab5f428abe4e6420afb6c99e",
+      "size_in_bytes": 5693
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/geventlet.py",
+      "path_type": "hardlink",
+      "sha256": "0c3963d4c1a29a9f9da68bc754e241d1e12fa83e39fced317051b4eafe6f9c48",
+      "size_in_bytes": 5713
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/ggevent.py",
+      "path_type": "hardlink",
+      "sha256": "aa0af3d4bb1f7278e1f29b618ba156f0142b6d3e4aa8b6611b13230b57cdb447",
+      "size_in_bytes": 5733
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/gthread.py",
+      "path_type": "hardlink",
+      "sha256": "6ed79311091e10a24c8096ed7f719c3f6a02455f07346c78fe57f36966e54e31",
+      "size_in_bytes": 12194
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/gtornado.py",
+      "path_type": "hardlink",
+      "sha256": "d1dfcca005db2eccb52e76ca7370b68e8a3403040b6279a9089090ba997e9fe4",
+      "size_in_bytes": 5988
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/sync.py",
+      "path_type": "hardlink",
+      "sha256": "1efc8d9c20e50051f7a366279ba5bf1772179d840b0404f5a129ffb90dcb8420",
+      "size_in_bytes": 7327
+    },
+    {
+      "_path": "lib/python3.8/site-packages/gunicorn/workers/workertmp.py",
+      "path_type": "hardlink",
+      "sha256": "e2cca04e6368767e6f679a949d2481d1d530b5f7ad800c6b4eb86163180439b6",
+      "size_in_bytes": 1649
+    }
+  ],
+  "paths_version": 1
+}

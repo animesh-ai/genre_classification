@@ -1,0 +1,21 @@
+{
+    "os": "Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.10",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-08-29T20:07:51.356115",
+    "startedAt": "2021-08-29T20:07:48.914297",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "-n",
+        "testing/artifact_test",
+        "./"
+    ],
+    "state": "running",
+    "program": "/home/shriganesh/miniconda3/envs/udacity/bin/wandb",
+    "host": "DESKTOP-93DDSNS",
+    "username": "shriganesh",
+    "executable": "/home/shriganesh/miniconda3/envs/udacity/bin/python3.8"
+}

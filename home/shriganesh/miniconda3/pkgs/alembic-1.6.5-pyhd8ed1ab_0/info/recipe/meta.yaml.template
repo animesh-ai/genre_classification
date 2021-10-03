@@ -1,0 +1,60 @@
+{% set name = "alembic" %}
+{% set version = "1.6.5" %}
+{% set hash = "a21fedebb3fb8f6bbbba51a11114f08c78709377051384c9c5ead5705ee93a51" %}
+{% set bundle = "tar.gz" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  sha256: {{ hash }}
+
+build:
+  noarch: python
+  entry_points:
+    - alembic = alembic.config:main
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+
+requirements:
+  host:
+    - python >=3.6
+    - pip
+  run:
+    - python >=3.6
+    - sqlalchemy >=1.3.0
+    - mako
+    - python-editor >=0.3
+    - python-dateutil
+
+test:
+  requires:
+    - pip
+  imports:
+    - alembic
+    - alembic.autogenerate
+    - alembic.ddl
+    - alembic.operations
+    - alembic.runtime
+    - alembic.script
+    - alembic.util
+  commands:
+    - pip check
+    - alembic --help
+
+about:
+  home: https://bitbucket.org/zzzeek/alembic
+  license_file: LICENSE
+  license: MIT
+  license_family: MIT
+  summary: A database migration tool for SQLAlchemy.
+  dev_url: https://bitbucket.org/zzzeek/alembic
+  doc_url: http://alembic.zzzcomputing.com/en/latest/
+
+extra:
+  recipe-maintainers:
+    - anguslees
+    - xylar

@@ -1,0 +1,25 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dataclasses",
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "werkzeug-2.0.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "3b680fa0d39cccd009126087c6422fcc",
+  "name": "werkzeug",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f980e8cc790209c46765bac2148a1773cb5ea91e8e9e4cdb6df5302c3ee5998c",
+  "size": 224460,
+  "subdir": "noarch",
+  "timestamp": 1621518348471,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/werkzeug-2.0.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "2.0.1"
+}

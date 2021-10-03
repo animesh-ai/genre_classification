@@ -1,0 +1,8 @@
+{
+  "glib": "2",
+  "target_platform": "linux-64",
+  "c_compiler_version": "9",
+  "expat": "2.3",
+  "channel_targets": "conda-forge main",
+  "c_compiler": "gcc"
+}

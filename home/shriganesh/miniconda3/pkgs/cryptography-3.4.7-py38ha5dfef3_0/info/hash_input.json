@@ -1,0 +1,7 @@
+{
+  "rust_compiler": "rust",
+  "openssl": "1.1.1",
+  "target_platform": "linux-64",
+  "python": "3.8.* *_cpython",
+  "channel_targets": "conda-forge main"
+}

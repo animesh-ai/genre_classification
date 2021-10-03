@@ -1,0 +1,58 @@
+{% set name = "libxkbcommon" %}
+{% set version = "1.0.3" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/xkbcommon/{{ name }}/archive/xkbcommon-{{ version }}.tar.gz
+  sha256: 5d10a57ab65daad7d975926166770eca1d2c899131ab96c23845df1c42da5c31
+
+build:
+  number: 0
+  skip: true  # [win or osx]
+  missing_dso_whitelist:
+    - /lib/libc.so.6
+  run_exports:
+    - {{ pin_subpackage('libxkbcommon') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - meson
+    - ninja
+    - m4
+    - bison
+    - cmake
+    - pkg-config
+  host:
+    - xorg-libxau
+    - {{ cdt('xorg-x11-proto-devel') }}
+    - libxcb
+    - xorg-xproto
+    - xcb-proto
+    - pthread-stubs
+    - libxml2
+
+test:
+  commands:
+    - test -f "${PREFIX}/lib/libxkbcommon${SHLIB_EXT}"
+
+about:
+  home: https://github.com/xkbcommon/libxkbcommon
+  license: MIT/X11 Derivative
+  license_family: MIT
+  license_file: LICENSE
+  summary: keymap handling library for toolkits and window systems
+  description: |
+    libxkbcommon is a keyboard keymap compiler and support library which
+    processes a reduced subset of keymaps as defined by the XKB (X Keyboard
+    Extension) specification.
+  doc_url: https://xkbcommon.org/
+  dev_url: https://github.com/xkbcommon/libxkbcommon
+
+extra:
+  recipe-maintainers:
+    - scopatz

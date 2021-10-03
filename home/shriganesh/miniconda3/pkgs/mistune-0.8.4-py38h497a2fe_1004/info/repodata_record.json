@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38h497a2fe_1004",
+  "build_number": 1004,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "features": "",
+  "fn": "mistune-0.8.4-py38h497a2fe_1004.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "d01626bf0bcaec0c23e3e7834dea9a34",
+  "name": "mistune",
+  "platform": "linux",
+  "sha256": "962fa93dfcbbaf766d73446a825b90ad7d9d5936a114feb78126564b057f868a",
+  "size": 55302,
+  "subdir": "linux-64",
+  "timestamp": 1624941463944,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/mistune-0.8.4-py38h497a2fe_1004.tar.bz2",
+  "version": "0.8.4"
+}

@@ -1,0 +1,23 @@
+{
+  "build": "pyhd3deb0d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "idna-3.1-pyhd3deb0d_0.tar.bz2",
+  "license": "BSD Like",
+  "md5": "9c9aea4b8391264477df484f798562d0",
+  "name": "idna",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "fc43b60f1fed66d16221caedce75856cb782b549af54813464c7aa32cf24d596",
+  "size": 53728,
+  "subdir": "noarch",
+  "timestamp": 1609836406520,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/idna-3.1-pyhd3deb0d_0.tar.bz2",
+  "version": "3.1"
+}

@@ -1,0 +1,12 @@
+{
+  "cxx_compiler": "gxx",
+  "libffi": "3.3",
+  "cxx_compiler_version": "9",
+  "c_compiler_version": "9",
+  "channel_targets": "conda-forge main",
+  "zlib": "1.2",
+  "target_platform": "linux-64",
+  "pcre": "8",
+  "c_compiler": "gcc",
+  "libiconv": "1.16"
+}

@@ -27,9 +27,6 @@ def go(args):
 
     # A minimal feature engineering step: a new feature
     logger.info("Feature engineering")
-    df['title'].fillna(value='', inplace=True)
-    df['song_name'].fillna(value='', inplace=True)
-    df['text_feature'] = df['title'] + ' ' + df['song_name']
 
     filename = "processed_data.csv"
     df.to_csv(filename)

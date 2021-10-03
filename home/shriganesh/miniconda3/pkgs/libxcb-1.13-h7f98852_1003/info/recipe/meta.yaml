@@ -1,0 +1,111 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Jan 10 16:56:32 2021
+# ------------------------------------------------
+
+package:
+    name: libxcb
+    version: '1.13'
+source:
+    fn: libxcb-1.13.tar.bz2
+    patches: null
+    sha256: 188c8752193c50ff2dbe89db4554c63df2e26a2e47b0fa415a70918b5b851daa
+    url: https://www.x.org/releases/individual/xcb/libxcb-1.13.tar.bz2
+build:
+    detect_binary_files_with_prefix: true
+    number: '1003'
+    string: h7f98852_1003
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - autoconf 2.69 pl5320h36c2ea0_10
+        - automake 1.16.2 pl5320ha770c72_3
+        - binutils_impl_linux-64 2.35.1 h193b22a_1
+        - binutils_linux-64 2.35 hc3fd857_29
+        - gcc_impl_linux-64 9.3.0 h28f5a38_17
+        - gcc_linux-64 9.3.0 h7247604_29
+        - gettext 0.19.8.1 h0b5b191_1005
+        - gnuconfig 2020.11.07 hd8ed1ab_0
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.35.1 hea4e1c9_1
+        - libffi 3.3 h58526e2_2
+        - libgcc-devel_linux-64 9.3.0 hfd08b2a_17
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - libtool 2.4.6 h58526e2_1007
+        - m4 1.4.18 h516909a_1001
+        - make 4.3 hd18ef5c_1
+        - perl 5.32.0 h36c2ea0_0
+        - pkg-config 0.29.2 h36c2ea0_1008
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.12.5 ha878542_0
+        - ld_impl_linux-64 2.35.1 hea4e1c9_1
+        - libffi 3.3 h58526e2_2
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 h58526e2_4
+        - openssl 1.1.1i h7f98852_0
+        - pthread-stubs 0.4 h36c2ea0_1001
+        - python 3.9.1 hffdb5ce_3_cpython
+        - python_abi 3.9 1_cp39
+        - readline 8.0 he28a2e2_2
+        - sqlite 3.34.0 h74cdb3f_0
+        - tk 8.6.10 h21135ba_1
+        - tzdata 2020f he74cb21_0
+        - xcb-proto 1.13 py39h3811e60_1006
+        - xorg-libxau 1.0.9 h7f98852_0
+        - xorg-libxdmcp 1.1.3 h7f98852_0
+        - xorg-util-macros 1.19.2 h36c2ea0_1001
+        - xorg-xproto 7.0.31 h7f98852_1007
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1010
+    run:
+        - libgcc-ng >=9.3.0
+        - pthread-stubs
+        - xorg-libxau
+        - xorg-libxdmcp
+test:
+    commands:
+        - test -f $PREFIX/lib/libxcb.so
+        - test -f $PREFIX/lib/libxcb-composite.so
+        - test -f $PREFIX/lib/libxcb-damage.so
+        - test -f $PREFIX/lib/libxcb-dpms.so
+        - test -f $PREFIX/lib/libxcb-dri2.so
+        - test -f $PREFIX/lib/libxcb-glx.so
+        - test -f $PREFIX/lib/libxcb-present.so
+        - test -f $PREFIX/lib/libxcb-randr.so
+        - test -f $PREFIX/lib/libxcb-record.so
+        - test -f $PREFIX/lib/libxcb-res.so
+        - test -f $PREFIX/lib/libxcb-screensaver.so
+        - test -f $PREFIX/lib/libxcb-shape.so
+        - test -f $PREFIX/lib/libxcb-shm.so
+        - test -f $PREFIX/lib/libxcb-sync.so
+        - test -f $PREFIX/lib/libxcb-xf86dri.so
+        - test -f $PREFIX/lib/libxcb-xfixes.so
+        - test -f $PREFIX/lib/libxcb-xinerama.so
+        - test -f $PREFIX/lib/libxcb-xkb.so
+        - test -f $PREFIX/lib/libxcb-xtest.so
+        - test -f $PREFIX/lib/libxcb-xv.so
+        - test -f $PREFIX/lib/libxcb-xvmc.so
+        - test -f $PREFIX/lib/libxcb-dri3.so
+        - test -f $PREFIX/lib/libxcb-render.so
+        - test -f $PREFIX/lib/libxcb-xinput.so
+about:
+    home: http://xcb.freedesktop.org/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING
+    summary: This is the C-language Binding (XCB) package to the X Window System protocol
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid
+        - pkgw

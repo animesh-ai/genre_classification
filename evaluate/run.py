@@ -22,6 +22,9 @@ def go(args):
 
     # Extract the target from the features
     logger.info("Extracting target from dataframe")
+    df['title'].fillna(value='', inplace=True)
+    df['song_name'].fillna(value='', inplace=True)
+    df['text_feature'] = df['title'] + ' ' + df['song_name']
     X_test = df.copy()
     y_test = X_test.pop("genre")
 

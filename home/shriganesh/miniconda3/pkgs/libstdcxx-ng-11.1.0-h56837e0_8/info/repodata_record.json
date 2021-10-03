@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "h56837e0_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "libstdcxx-ng-11.1.0-h56837e0_8.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "md5": "930957b6bff66cfd539ada080c5ca3e8",
+  "name": "libstdcxx-ng",
+  "platform": "linux",
+  "sha256": "811b7b71df950e810793243d39581faf157e4b5e8271a174b00e44207ff72cf3",
+  "size": 4420131,
+  "subdir": "linux-64",
+  "timestamp": 1628139902116,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-11.1.0-h56837e0_8.tar.bz2",
+  "version": "11.1.0"
+}

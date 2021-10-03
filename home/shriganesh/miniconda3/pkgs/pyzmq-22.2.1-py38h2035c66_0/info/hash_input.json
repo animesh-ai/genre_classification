@@ -1,0 +1,10 @@
+{
+  "c_compiler_version": "9",
+  "zeromq": "4.3.4",
+  "target_platform": "linux-64",
+  "c_compiler": "gcc",
+  "cxx_compiler": "gxx",
+  "channel_targets": "conda-forge main",
+  "cxx_compiler_version": "9",
+  "python": "3.8.* *_cpython"
+}

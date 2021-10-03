@@ -1,0 +1,32 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=4.1",
+    "ipython_genutils",
+    "jupyter_client >=4.1",
+    "jupyter_core",
+    "pygments",
+    "pyqt",
+    "python >=3.6",
+    "qtpy",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "qtconsole-5.1.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "d5ad640caccf8221364d566c9259ac6f",
+  "name": "qtconsole",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "2b7a80d911cfb202d5327645df191c7f1450ab17bc1f5cfcd3ae10efeba2d0f2",
+  "size": 91032,
+  "subdir": "noarch",
+  "timestamp": 1625023998291,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/qtconsole-5.1.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "5.1.1"
+}

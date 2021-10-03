@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "he3ba5ed_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.5.0",
+    "libstdcxx-ng >=7.5.0",
+    "libxml2 >=2.9.10,<2.10.0a0"
+  ],
+  "features": "",
+  "fn": "libxkbcommon-1.0.3-he3ba5ed_0.tar.bz2",
+  "license": "MIT/X11 Derivative",
+  "license_family": "MIT",
+  "md5": "f9dbabc7e01c459ed7a1d1d64b206e9b",
+  "name": "libxkbcommon",
+  "platform": "linux",
+  "sha256": "64d37e16c694714ca08a96f9864a35ba9ee38b8e222f8ee646e10976250d966d",
+  "size": 594833,
+  "subdir": "linux-64",
+  "timestamp": 1606236169314,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libxkbcommon-1.0.3-he3ba5ed_0.tar.bz2",
+  "version": "1.0.3"
+}

@@ -1,0 +1,67 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Nov 25 23:33:53 2020
+# ------------------------------------------------
+
+package:
+    name: gettext
+    version: 0.19.8.1
+source:
+    patches: null
+    sha256: 105556dbc5c3fbbc2aa0edb46d22d055748b6f5c7cd7a8d99f8e7eb84e938be4
+    url: ftp://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.1.tar.xz
+build:
+    ignore_run_exports:
+        - libcxx
+        - libstdcxx-ng
+    number: '1005'
+    run_exports:
+        - gettext >=0.19.8.1,<1.0a0
+    string: h0b5b191_1005
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - binutils_impl_linux-64 2.35.1 h17ad2fc_0
+        - binutils_linux-64 2.35 hc3fd857_29
+        - gcc_impl_linux-64 9.3.0 h28f5a38_17
+        - gcc_linux-64 9.3.0 h7247604_29
+        - gxx_impl_linux-64 9.3.0 h53cdd4c_17
+        - gxx_linux-64 9.3.0 h0d07fa4_29
+        - kernel-headers_linux-64 2.6.32 h77966d4_13
+        - ld_impl_linux-64 2.35.1 hed1e6ac_0
+        - libgcc-devel_linux-64 9.3.0 hfd08b2a_17
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-devel_linux-64 9.3.0 h4084dd6_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - libtool 2.4.6 h58526e2_1007
+        - make 4.3 hd18ef5c_1
+        - sysroot_linux-64 2.12 h77966d4_13
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - libffi 3.3 h58526e2_0
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+    run:
+        - libffi >=3.3,<3.4.0a0
+        - libgcc-ng >=9.3.0
+test:
+    commands:
+        - msgfmt -o $RECIPE_DIR/an.gmo $RECIPE_DIR/an.po
+        - test -f ${PREFIX}/lib/libgettextlib$SHLIB_EXT
+        - test -f ${PREFIX}/lib/libgettextpo$SHLIB_EXT
+        - test -f ${PREFIX}/lib/libgettextsrc$SHLIB_EXT
+about:
+    home: https://www.gnu.org/software/gettext/
+    license: LGPL-2.1-or-later AND GPL-3.0-or-later
+    license_file: COPYING
+    summary: Internationalization package
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - scopatz

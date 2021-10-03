@@ -1,0 +1,24 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6"
+  ],
+  "features": "",
+  "fn": "gorilla-0.4.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "9efc8071164444727c1f9bc91efc4871",
+  "name": "gorilla",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "7b714278b7e718b7c9246812d37a7871060ad67b64686fd7ee4e6f88a2f6ddcb",
+  "size": 12805,
+  "subdir": "noarch",
+  "timestamp": 1619086604748,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/gorilla-0.4.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.4.0"
+}

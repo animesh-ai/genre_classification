@@ -1,0 +1,103 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Mar 26 17:10:25 2021
+# ------------------------------------------------
+
+package:
+  name: dbus
+  version: 1.13.6
+source:
+  patches:
+    - patches/0001-Add-var-lib-dbus-machine-id-as-a-fallback.patch
+    - patches/0002-Make-it-possible-to-read-files-on-proc-which-reports.patch
+    - patches/0003-Use-proc-sys-kernel-random-boot_id-as-last-resort-fa.patch
+    - patches/0004-disable-fd-limit-tests-not-supported-in-docker.patch
+  sha256: b533693232d36d608a09f70c15440c1816319bac3055433300d88019166c1ae4
+  url: http://dbus.freedesktop.org/releases/dbus/dbus-1.13.6.tar.gz
+build:
+  number: '2'
+  run_exports:
+    - dbus >=1.13.6,<2.0a0
+  skip_compile_pyc:
+    - share/doc/dbus/examples/GetAllMatchRules.py
+  string: h48d8840_2
+requirements:
+  build:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - binutils_impl_linux-64 2.35.1 h193b22a_2
+    - binutils_linux-64 2.35 h67ddf6f_30
+    - gcc_impl_linux-64 9.3.0 h70c0ae5_18
+    - gcc_linux-64 9.3.0 hf25ea35_30
+    - kernel-headers_linux-64 2.6.32 h77966d4_13
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libgcc-devel_linux-64 9.3.0 h7864c58_18
+    - libgcc-ng 9.3.0 h2828fa1_18
+    - libgomp 9.3.0 h2828fa1_18
+    - libstdcxx-ng 9.3.0 h6de172a_18
+    - libtool 2.4.6 h58526e2_1007
+    - make 4.3 hd18ef5c_1
+    - pkg-config 0.29.2 h36c2ea0_1008
+    - sysroot_linux-64 2.12 h77966d4_13
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2020.12.5 ha878542_0
+    - expat 2.3.0 h9c3ff4c_0
+    - gettext 0.19.8.1 h0b5b191_1005
+    - glib 2.68.0 h9c3ff4c_2
+    - glib-tools 2.68.0 h9c3ff4c_2
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libffi 3.3 h58526e2_2
+    - libgcc-ng 9.3.0 h2828fa1_18
+    - libglib 2.68.0 h3e27bee_2
+    - libgomp 9.3.0 h2828fa1_18
+    - libiconv 1.16 h516909a_0
+    - libstdcxx-ng 9.3.0 h6de172a_18
+    - ncurses 6.2 h58526e2_4
+    - openssl 1.1.1k h7f98852_0
+    - pcre 8.44 he1b5a44_0
+    - python 3.9.2 hffdb5ce_0_cpython
+    - readline 8.0 he28a2e2_2
+    - sqlite 3.35.2 h74cdb3f_0
+    - tk 8.6.10 h21135ba_1
+    - tzdata 2021a he74cb21_0
+    - xz 5.2.5 h516909a_1
+    - zlib 1.2.11 h516909a_1010
+  run:
+    - expat >=2.3.0,<2.4.0a0
+    - expat >=2.3.0,<2.4.0a0
+    - glib
+    - libgcc-ng >=9.3.0
+    - libglib >=2.68.0,<3.0a0
+test:
+  commands:
+    - dbus-daemon --version
+    - dbus-uuidgen
+about:
+  description: 'D-Bus is a message bus system, a simple way for applications
+
+    to talk to one another. In addition to interprocess communication, D-Bus helps
+
+    coordinate process lifecycle; it makes it simple and reliable to code a "single
+
+    instance" application or daemon, and to launch applications and daemons on
+
+    demand when their services are needed.
+
+    '
+  dev_url: git://anongit.freedesktop.org/dbus/dbus
+  doc_source_url: https://cgit.freedesktop.org/dbus/dbus/tree/doc
+  doc_url: https://www.freedesktop.org/wiki/IntroductionToDBus/
+  home: http://www.freedesktop.org/wiki/Software/dbus/
+  license: GPL-2.0-or-later
+  license_file: COPYING
+  summary: Simple message bus system for applications to talk to one another
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ccordoba12
+    - mingwandroid
+    - nehaljwani
+    - ocefpaf

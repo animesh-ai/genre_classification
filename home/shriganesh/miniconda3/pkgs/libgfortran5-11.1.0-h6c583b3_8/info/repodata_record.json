@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h6c583b3_8",
+  "build_number": 8,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "libgfortran-ng 11.1.0"
+  ],
+  "depends": [],
+  "features": "",
+  "fn": "libgfortran5-11.1.0-h6c583b3_8.tar.bz2",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "md5": "478b6358c5d08b7e133a5da71c5c81bd",
+  "name": "libgfortran5",
+  "platform": "linux",
+  "sha256": "ae3ededeab54d9e85c2b6d7f9874981c24a2285cb71ef6cb3233a796a2fda496",
+  "size": 1814168,
+  "subdir": "linux-64",
+  "timestamp": 1628139734340,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgfortran5-11.1.0-h6c583b3_8.tar.bz2",
+  "version": "11.1.0"
+}

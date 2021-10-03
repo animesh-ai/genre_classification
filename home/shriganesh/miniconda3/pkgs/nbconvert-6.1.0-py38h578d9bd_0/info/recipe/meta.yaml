@@ -1,0 +1,104 @@
+# This file created by conda-build 3.21.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Jun 23 18:23:24 2021
+# ------------------------------------------------
+
+package:
+  name: nbconvert
+  version: 6.1.0
+source:
+  sha256: d22a8ff202644d31db254d24d52c3a96c82156623fcd7c7f987bba2612303ec9
+  url: https://pypi.io/packages/source/n/nbconvert/nbconvert-6.1.0.tar.gz
+build:
+  entry_points:
+    - jupyter-nbconvert = nbconvert.nbconvertapp:main
+  number: '0'
+  script: /home/conda/feedstock_root/build_artifacts/nbconvert_1624472649437/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+    -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+  string: py38h578d9bd_0
+requirements:
+  build: []
+  host:
+    - _libgcc_mutex 0.1 conda_forge
+    - _openmp_mutex 4.5 1_gnu
+    - ca-certificates 2021.5.30 ha878542_0
+    - certifi 2021.5.30 py38h578d9bd_0
+    - ld_impl_linux-64 2.35.1 hea4e1c9_2
+    - libffi 3.3 h58526e2_2
+    - libgcc-ng 9.3.0 h2828fa1_19
+    - libgomp 9.3.0 h2828fa1_19
+    - libstdcxx-ng 9.3.0 h6de172a_19
+    - ncurses 6.2 h58526e2_4
+    - openssl 1.1.1k h7f98852_0
+    - pip 21.1.2 pyhd8ed1ab_0
+    - python 3.8.10 h49503c6_1_cpython
+    - python_abi 3.8 1_cp38
+    - readline 8.1 h46c0cb4_0
+    - setuptools 49.6.0 py38h578d9bd_3
+    - sqlite 3.36.0 h9cd32fc_0
+    - tk 8.6.10 h21135ba_1
+    - wheel 0.36.2 pyhd3deb0d_0
+    - xz 5.2.5 h516909a_1
+    - zlib 1.2.11 h516909a_1010
+  run:
+    - bleach
+    - defusedxml
+    - entrypoints >=0.2.2
+    - jinja2 >=2.4
+    - jupyter_core
+    - jupyterlab_pygments
+    - mistune >=0.8.1,<2
+    - nbclient >=0.5.0,<0.6.0
+    - nbformat >=4.4
+    - pandoc >=1.12.1
+    - pandocfilters >=1.4.1
+    - pygments >=2.4.1
+    - python >=3.8,<3.9.0a0
+    - python_abi 3.8.* *_cp38
+    - testpath
+    - traitlets >=5.0
+  run_constrained:
+    - pyppeteer ==0.2.2
+test:
+  commands:
+    - jupyter nbconvert --help
+    - jupyter nbconvert nbconvert/tests/files/notebook1.ipynb --to html
+  imports:
+    - nbconvert
+    - nbconvert.exporters
+    - nbconvert.filters
+    - nbconvert.postprocessors
+    - nbconvert.preprocessors
+    - nbconvert.resources
+    - nbconvert.tests
+    - nbconvert.utils
+    - nbconvert.writers
+  source_files:
+    - nbconvert/tests/files/notebook1.ipynb
+about:
+  description: 'The nbconvert tool, jupyter nbconvert, converts notebooks to various
+    other
+
+    formats via Jinja templates. The nbconvert tool allows you to convert an
+
+    .ipynb notebook file into various static formats.
+
+    '
+  dev_url: https://github.com/jupyter/nbconvert
+  doc_url: http://nbconvert.readthedocs.org/
+  home: http://jupyter.org
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: Converting Jupyter Notebooks
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - blink1073
+    - jakirkham
+    - minrk
+    - mpacer
+    - mseal
+    - ocefpaf
+    - pelson
+    - takluyver

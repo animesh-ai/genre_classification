@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py38ha5dfef3_0",
+  "build_number": 0,
+  "depends": [
+    "cffi >=1.12",
+    "openssl >=1.1.1k,<1.1.2a",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+  "license_family": "BSD",
+  "name": "cryptography",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1616851815619,
+  "version": "3.4.7"
+}

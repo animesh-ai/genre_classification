@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py38h7400c14_7",
+  "build_number": 7,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "dbus >=1.13.6,<2.0a0",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "pyqt-impl 5.12.3 py38h7400c14_7",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "qt >=5.12.9,<5.13.0a0"
+  ],
+  "features": "",
+  "fn": "pyqtwebengine-5.12.1-py38h7400c14_7.tar.bz2",
+  "license": "LicenseRef-Commercial or GPL-2.0-only or GPL-3.0-only",
+  "license_family": "GPL",
+  "md5": "1c17944e118b314ff4d0bfc05f03a5e1",
+  "name": "pyqtwebengine",
+  "platform": "linux",
+  "sha256": "4f29e97d2f3f7fa65d6be48c15bdc9ae97bc09f63ccffccf1b38d07d53a0697a",
+  "size": 178747,
+  "subdir": "linux-64",
+  "timestamp": 1610494867260,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyqtwebengine-5.12.1-py38h7400c14_7.tar.bz2",
+  "version": "5.12.1"
+}

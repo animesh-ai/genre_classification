@@ -1,0 +1,91 @@
+{% set version = "6.2.0" %}
+
+package:
+  name: ipykernel
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/i/ipykernel/ipykernel-{{ version }}.tar.gz
+  sha256: 4439459f171d77f35b7f7e72dace5d7c2dd10a5c9e2c22b173ad9048fbfe7656
+
+build:
+  number: 0
+  # TODO: restore pypy builds https://github.com/conda-forge/ipykernel-feedstock/issues/85
+  skip: true  # [py<37 or python_impl == "pypy"]
+  script:
+    - {{ PYTHON }} setup.py bdist_wheel
+    - cd dist
+    - {{ PYTHON }} -m pip install ipykernel-{{ version }}-py3-none-any.whl --no-deps -vv
+    - {{ PYTHON }} -m ipykernel install --sys-prefix
+    # TODO: this may be needed/desirable at some point
+    # - cd {{ RECIPE_DIR }} && {{ PYTHON }} fix_kernelspec.py
+
+requirements:
+  {% if not win %}
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - ipython >=5.0,<8.0                     # [build_platform != target_platform]
+    - jupyter_client <7.0                    # [build_platform != target_platform]
+  {% endif %}
+  host:
+    - debugpy >=1,<2.0
+    - ipython >=7.23.1,<8.0
+    - jupyter_client <7.0
+    - pip
+    - python
+  run:
+    - argcomplete >=1.12.3  # [py<38]
+    - appnope  # [osx]
+    - debugpy >=1,<2.0
+    - importlib-metadata <5  # [py<38]
+    - ipython >=7.23.1,<8.0
+    - jupyter_client <8.0
+    - matplotlib-inline >=0.1.0,<0.2.0
+    - python
+    - tornado >=4.2,<7.0
+    - traitlets >=4.1.0,<6.0
+
+test:
+  requires:
+    - curio  # [not win]
+    - flaky
+    - ipyparallel
+    - matplotlib-base
+    - nose
+    - numpy
+    - pip
+    - pytest !=5.3.4
+    - pytest-cov
+    - pytest-timeout
+    - trio
+
+  imports:
+    - ipykernel
+  commands:
+    - pip check
+    - jupyter kernelspec list
+
+about:
+  home: https://ipython.org
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: COPYING.md
+  summary: IPython Kernel for Jupyter
+  description: |
+    A powerful interactive Python shell and a Jupyter kernel to work with
+    Python code in Jupyter notebooks and other interactive frontends.
+  dev_url: https://github.com/ipython/ipykernel
+  doc_url: https://ipython.readthedocs.io
+  doc_source_url: https://github.com/ipython/ipykernel/blob/master/docs/index.rst
+
+extra:
+  recipe-maintainers:
+    - blink1073
+    - bollwyvl
+    - Carreau
+    - jakirkham
+    - minrk
+    - ocefpaf
+    - pelson
+    - davidbrochart

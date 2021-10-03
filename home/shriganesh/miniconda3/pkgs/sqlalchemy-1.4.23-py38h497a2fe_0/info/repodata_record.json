@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py38h497a2fe_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "greenlet !=0.4.17",
+    "libgcc-ng >=9.4.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "features": "",
+  "fn": "sqlalchemy-1.4.23-py38h497a2fe_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "882013cc28574f5eab0f12f7860f6b2f",
+  "name": "sqlalchemy",
+  "platform": "linux",
+  "sha256": "945a1d39ef0dbbf9736114707fb3efe83c1b0875c41056dd889d10363e547655",
+  "size": 2396589,
+  "subdir": "linux-64",
+  "timestamp": 1629315084865,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/sqlalchemy-1.4.23-py38h497a2fe_0.tar.bz2",
+  "version": "1.4.23"
+}

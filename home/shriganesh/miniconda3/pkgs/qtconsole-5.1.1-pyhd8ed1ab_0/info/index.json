@@ -1,0 +1,23 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "ipykernel >=4.1",
+    "ipython_genutils",
+    "jupyter_client >=4.1",
+    "jupyter_core",
+    "pygments",
+    "pyqt",
+    "python >=3.6",
+    "qtpy",
+    "traitlets"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "qtconsole",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1625023998291,
+  "version": "5.1.1"
+}

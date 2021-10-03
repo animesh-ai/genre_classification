@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py38he5a9106_0",
+  "build_number": 0,
+  "depends": [
+    "debugpy >=1,<2.0",
+    "ipython >=7.23.1,<8.0",
+    "jupyter_client <8.0",
+    "matplotlib-inline >=0.1.0,<0.2.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "tornado >=4.2,<7.0",
+    "traitlets >=4.1.0,<6.0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "ipykernel",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1629116392131,
+  "version": "6.2.0"
+}

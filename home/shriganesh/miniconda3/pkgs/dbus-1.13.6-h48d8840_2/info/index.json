@@ -1,0 +1,17 @@
+{
+  "arch": "x86_64",
+  "build": "h48d8840_2",
+  "build_number": 2,
+  "depends": [
+    "expat >=2.3.0,<2.4.0a0",
+    "glib",
+    "libgcc-ng >=9.3.0",
+    "libglib >=2.68.0,<3.0a0"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "dbus",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1616778916368,
+  "version": "1.13.6"
+}

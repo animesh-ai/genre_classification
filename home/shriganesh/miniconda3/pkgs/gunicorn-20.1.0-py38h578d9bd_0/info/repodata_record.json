@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py38h578d9bd_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "setuptools >=3.0"
+  ],
+  "features": "",
+  "fn": "gunicorn-20.1.0-py38h578d9bd_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "3738a22063624d28e60c75bd569122a3",
+  "name": "gunicorn",
+  "platform": "linux",
+  "sha256": "e6c2272bff2bd8f472513e0f789572e30d27483d574df0a38691006d0ad4ba6d",
+  "size": 121428,
+  "subdir": "linux-64",
+  "timestamp": 1620734458658,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gunicorn-20.1.0-py38h578d9bd_0.tar.bz2",
+  "version": "20.1.0"
+}

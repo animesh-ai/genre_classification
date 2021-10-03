@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py38h709712a_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.4.0",
+    "libstdcxx-ng >=9.4.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "features": "",
+  "fn": "greenlet-1.1.1-py38h709712a_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "0386f8aa026a5eca3814db436ead1273",
+  "name": "greenlet",
+  "platform": "linux",
+  "sha256": "fc5940e351bb0eaaf0b6bd42c2855ba9cb040d48086cb7d5a954c5c1e0dabbd2",
+  "size": 85092,
+  "subdir": "linux-64",
+  "timestamp": 1628272273863,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/greenlet-1.1.1-py38h709712a_0.tar.bz2",
+  "version": "1.1.1"
+}

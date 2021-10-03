@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /home/conda/feedstock_root/build_artifacts/pyqt_split_1610492944753/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/bin/python -m PyQt5.uic.pyuic ${1+"$@"}

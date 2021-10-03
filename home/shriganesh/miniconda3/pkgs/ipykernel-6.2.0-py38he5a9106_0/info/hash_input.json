@@ -1,0 +1,6 @@
+{
+  "python": "3.8.* *_cpython",
+  "numpy": "1.18",
+  "target_platform": "linux-64",
+  "channel_targets": "conda-forge main"
+}

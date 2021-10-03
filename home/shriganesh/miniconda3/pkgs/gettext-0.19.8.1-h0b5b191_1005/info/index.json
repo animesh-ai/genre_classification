@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h0b5b191_1005",
+  "build_number": 1005,
+  "depends": [
+    "libffi >=3.3,<3.4.0a0",
+    "libgcc-ng >=9.3.0"
+  ],
+  "license": "LGPL-2.1-or-later AND GPL-3.0-or-later",
+  "name": "gettext",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1606347691729,
+  "version": "0.19.8.1"
+}

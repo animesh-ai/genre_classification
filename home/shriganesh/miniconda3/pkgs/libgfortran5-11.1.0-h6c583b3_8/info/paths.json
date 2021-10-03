@@ -1,0 +1,29 @@
+{
+  "paths": [
+    {
+      "_path": "lib/libgfortran.so",
+      "path_type": "softlink",
+      "sha256": "938a7b589d991dcc7e68b192cc7692756fabac50d8e24d2f708395b5e6d936dd",
+      "size_in_bytes": 6790608
+    },
+    {
+      "_path": "lib/libgfortran.so.5",
+      "path_type": "softlink",
+      "sha256": "938a7b589d991dcc7e68b192cc7692756fabac50d8e24d2f708395b5e6d936dd",
+      "size_in_bytes": 6790608
+    },
+    {
+      "_path": "lib/libgfortran.so.5.0.0",
+      "path_type": "hardlink",
+      "sha256": "938a7b589d991dcc7e68b192cc7692756fabac50d8e24d2f708395b5e6d936dd",
+      "size_in_bytes": 6790608
+    },
+    {
+      "_path": "share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+      "path_type": "hardlink",
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+      "size_in_bytes": 3324
+    }
+  ],
+  "paths_version": 1
+}

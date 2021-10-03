@@ -1,0 +1,67 @@
+{
+  "paths": [
+    {
+      "_path": "include/opus/opus.h",
+      "path_type": "hardlink",
+      "sha256": "8cfcc0feff3921bcc38971beb4b3f37058a49c1ca5da6b59fb4af638e21f8ee6",
+      "size_in_bytes": 48429
+    },
+    {
+      "_path": "include/opus/opus_defines.h",
+      "path_type": "hardlink",
+      "sha256": "f43bebc41ef7f7bd3a6b5d38a4410301b4ccdb854ad842fe985e93523802440b",
+      "size_in_bytes": 34903
+    },
+    {
+      "_path": "include/opus/opus_multistream.h",
+      "path_type": "hardlink",
+      "sha256": "1bf38c39dfdeef6eefdf504b585be4d4882c01e41c5a88c1249952b10a500ef8",
+      "size_in_bytes": 33539
+    },
+    {
+      "_path": "include/opus/opus_projection.h",
+      "path_type": "hardlink",
+      "sha256": "a53752449f55b5f60679eab8fda96835102251aeefccf7c54256460d02747216",
+      "size_in_bytes": 28240
+    },
+    {
+      "_path": "include/opus/opus_types.h",
+      "path_type": "hardlink",
+      "sha256": "19cb301ea1eedbcbdbb5049363de061893bf11c20e505a657b69ce6ffa5b11fa",
+      "size_in_bytes": 5157
+    },
+    {
+      "_path": "lib/libopus.so",
+      "path_type": "softlink",
+      "sha256": "95548864206b8e62acc2d6f668230ef62a1576f50b76fd1e9082e2a4fe573776",
+      "size_in_bytes": 423256
+    },
+    {
+      "_path": "lib/libopus.so.0",
+      "path_type": "softlink",
+      "sha256": "95548864206b8e62acc2d6f668230ef62a1576f50b76fd1e9082e2a4fe573776",
+      "size_in_bytes": 423256
+    },
+    {
+      "_path": "lib/libopus.so.0.8.0",
+      "path_type": "hardlink",
+      "sha256": "95548864206b8e62acc2d6f668230ef62a1576f50b76fd1e9082e2a4fe573776",
+      "size_in_bytes": 423256
+    },
+    {
+      "_path": "lib/pkgconfig/opus.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libopus_1606823424254/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "cbcd24813bd304a50ff6a737dae82378fb2ea5f627d40a0531860b15e9f3d93d",
+      "size_in_bytes": 602
+    },
+    {
+      "_path": "share/aclocal/opus.m4",
+      "path_type": "hardlink",
+      "sha256": "8cf9a338fb44c41f0803dd6ba9a6dff6fd95f2a95c766d76ee873424aeebb275",
+      "size_in_bytes": 4079
+    }
+  ],
+  "paths_version": 1
+}

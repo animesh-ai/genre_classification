@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "depends": [
+    "gitdb >=4.0.1,<5",
+    "python >=3.4",
+    "typing_extensions"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "gitpython",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1623994444902,
+  "version": "3.1.18"
+}

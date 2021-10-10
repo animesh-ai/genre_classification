@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/Animesh/genre_classification/mlruns/0/ebfce06762f947d283c02e124ecb15ce/artifacts
+end_time: 1633890553283
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ebfce06762f947d283c02e124ecb15ce
+run_uuid: ebfce06762f947d283c02e124ecb15ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1633890550055
+status: 4
+tags: []
+user_id: shriganesh

@@ -69,7 +69,7 @@ def go(config: DictConfig):
                 "input_artifact": "preprocessed_data.csv:latest",
                 "artifact_root": "data",
                 "artifact_type": "segregate_data",
-                "test_size": config["data"]["test_size"]
+                "test_size": config["data"]["test_size"],
                 "stratify": config["data"]["stratify"]
             }
         )
